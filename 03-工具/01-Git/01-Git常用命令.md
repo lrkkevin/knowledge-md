@@ -7,9 +7,12 @@
 | git pull                                                     | 再更新一次（其实也可以不用，第二步命令做过了其实）           |
 | git fetch --all && git reset --hard origin/master && git pull | 单条执行                                                     |
 
-### 二、撤回Commit
+### 二、常用命令
 
-| 命令                   | 作用       |
-| ---------------------- | ---------- |
-| git reset --soft HEAD^ | 撤回Commit |
+| 命令                   | 作用                 |
+| ---------------------- | -------------------- |
+| git reset --soft HEAD^ | 撤回Commit           |
+| git add .              | 所有文件加入版本控制 |
+| git commit -m ‘说明’   | 提交到本地           |
+| git push               | 提交到远程           |
 
