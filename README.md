@@ -28,10 +28,9 @@ Docker镜像的操作及常用命令.md
 
 #### 01-Git
 
-01-Git常用命令.md   
+Git常用命令.md   
 
 ### 04-性能优化
 
 ####  01-Arthas
-
-01-常用Java调优命令.md
+Arthas调优命令.md
