@@ -1,14 +1,14 @@
 [TOC]
 | 修订记录   | 版本 | 是否发布 |
 | ---------- | ---- | -------- |
-| 2020/08/03 | v1.0 | 否       |
+| 2020/08/03 | v1.0 | 是       |
 
 #### 一、SFTP工具类
 
 ```java
 
-import com.bayconnect.superlop.common.util.FileUtil;
-import com.bayconnect.superlop.common.util.StringUtil;
+import com.*.*.common.util.FileUtil;
+import com.*.*.common.util.StringUtil;
 import com.google.common.collect.Lists;
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
@@ -28,9 +28,8 @@ import java.util.Vector;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author 刘瑞奎(kevin).
+ * @author (kevin).
  * @Title superlop-parent.
- * @Package com.bayconnect.superlop.common.util.sftp.
  * @Description SftpTools.
  * @date 2020/8/3.
  */
@@ -417,7 +416,7 @@ public class SftpTools {
 
 ```java
 
-import com.bayconnect.toolset.BcToolSet;
+import com.*.toolset.BcToolSet;
 
 import java.util.Objects;
 import javax.validation.constraints.NotBlank;
